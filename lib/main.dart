@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'package:building_layout/widgets/favorite_widget.dart';
 // Uncomment lines 3 and 6 to view the visual layout at runtime.
 // import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 
@@ -38,11 +40,7 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
-          Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
-          const Text('41'),
+          const FavoriteWidget(),
         ],
       ),
     );
